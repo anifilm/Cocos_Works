@@ -7,5 +7,32 @@
       "fitHeight": true,
       "fitWidth": false
     }
+  },
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "Bird"
+      },
+      {
+        "index": 2,
+        "name": "Pipe"
+      },
+      {
+        "index": 3,
+        "name": "Ground"
+      },
+      {
+        "index": 4,
+        "name": "Point"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 1,
+      "1": 30,
+      "2": 2,
+      "3": 2,
+      "4": 2
+    }
   }
 }
